@@ -1,0 +1,22 @@
+﻿  CuraEmre.cpp
+C:\Users\curae\source\repos\CTIS 164\Projects\HW3\HW3\HW3\CuraEmre.cpp(269,35): warning C4326: return type of 'main' should be 'int' instead of 'void'
+CuraEmre.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl onClick(int,int,int,int)" (?onClick@@YAXHHHH@Z)
+CuraEmre.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+CuraEmre.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutReshapeFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutMouseFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutMotionFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutPassiveMotionFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutSpecialFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutKeyboardUpFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutSpecialUpFunc referenced in function main
+CuraEmre.obj : error LNK2019: unresolved external symbol glutBitmapCharacter referenced in function "void __cdecl print(int,int,char const *,void *)" (?print@@YAXHHPEBDPEAX@Z)
+CuraEmre.obj : error LNK2019: unresolved external symbol glutStrokeCharacter referenced in function "void __cdecl vprint2(int,int,float,char const *,...)" (?vprint2@@YAXHHMPEBDZZ)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\curae\source\repos\CTIS 164\Projects\HW3\HW3\x64\Debug\HW3.exe : fatal error LNK1120: 18 unresolved externals
